@@ -2,7 +2,7 @@ import styles from './ContactsList.module.css';
 import { connect } from 'react-redux';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import PropTypes from 'prop-types';
-import phonebookActions from '../redux/phonebook-actions';
+import phonebookActions from '../../redux/phonebook-actions';
 
 function ContactsList({ contacts, onRemoveContact }) {
   // if (contacts.length === 0) return null;

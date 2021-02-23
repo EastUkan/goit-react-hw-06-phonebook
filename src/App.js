@@ -1,9 +1,9 @@
 import { Component } from 'react';
 import { CSSTransition } from 'react-transition-group';
-import ContactForm from './ContactForm/ContactForm';
-import ContactsList from './ContactsList/ContactsList';
-import Filter from './Filter/Filter';
-import Title from './Title/Title';
+import ContactForm from './components/ContactForm';
+import ContactsList from './components/ContactsList';
+import Filter from './components/Filter';
+import Title from './components/Title';
 import './App.css';
 
 export default class App extends Component {

@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import phonebookActions from '../redux/phonebook-actions';
+import phonebookActions from '../../redux/phonebook-actions';
 import styles from './ContactForm.module.css';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
